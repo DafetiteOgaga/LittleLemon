@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'restaurant',
+    'rest_framework.authtoken',		# <- added rest_framework.authtoken here
+    'rest_framework',		# <- added rest_framework here
+    'djoser',		# <- added djoser here
 ]
 
 MIDDLEWARE = [
@@ -145,3 +148,15 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ],
+}
+
+# Add a new section in the settings.py file
+DJOSER = {
+    'USER_ID_FIELD': 'username'  # <-- Add this line
+}
