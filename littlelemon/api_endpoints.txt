@@ -1,0 +1,13 @@
+webpage(s):
+/
+
+use post method via insomnia to get user-token:
+/api-token-auth/
+
+API endpoints:
+/menu/
+/menu/<int:pk>
+/booking/
+/booking/<int:pk>/
+/auth/users/
+/auth/users/<username>/
