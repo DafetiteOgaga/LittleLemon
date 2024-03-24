@@ -1,4 +1,4 @@
-# LittleLemon Backend
+# LittleLemon Backend Component
 ### Welcome to LittleLemon! This is the backend component of my project.
 
 ## Description
