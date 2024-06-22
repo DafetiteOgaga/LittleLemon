@@ -51,7 +51,8 @@ I welcome contributions from the community! If you'd like to contribute to Littl
 
 
 
-##### Note: Pls, use a virtual environment to run this project
+##### Note: Pls, use a virtual environment to run this project.
+##### Check out [*Custom Commands*](https://github.com/DafetiteOgaga/custom_commands) for quick virtual environment setup.
 
 ### LittleLemon and README were auto created
 
